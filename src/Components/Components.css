@@ -1,0 +1,15 @@
+.square{
+    font-size: 50px;
+    border: 1px solid black;
+    flex: 0 0 32%;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    background-color: blue
+}
+.board{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(10, 0fr);
+
+}
